@@ -1,1 +1,1 @@
-select count(1) from {{ref('press')}}
+select count(1) cnts from {{ref('press')}}
