@@ -1,1 +1,1 @@
-select count(1) cnts from {{ref('press')}}
+select country,count(code) cnts from {{ref('press')}} {{ group_by(1) }}

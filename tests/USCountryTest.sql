@@ -1,0 +1,1 @@
+select country from {{ref('press')}} where country is null
